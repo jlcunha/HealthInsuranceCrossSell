@@ -59,7 +59,7 @@ As a basis for this project, I use CRISP, and now, in the **second cycle of CRIS
 
 All code, visualizations, and analyses for this project can be found at the following links:
 
-[Cycle 02](notebook/v1.0.ipynb)
+[Cycle 02](notebooks/v1.0.ipynb)
 
 [Cycle 01](cycle01)
 
