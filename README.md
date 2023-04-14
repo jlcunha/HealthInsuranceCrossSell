@@ -195,17 +195,27 @@ In this example is recommended call to 45% of customers ordered by score model. 
  The code of the evaluation business performance can be seen in this [link](src/insurance_evaluation.py).
 
 ### **2.12 - Design of Machine Learning Model Framework for Production Deployment**
-The final product of this project is a Google Sheets document that is linked to the machine learning model that is currently in production. This document provides the list of customers who are likely to purchase car insurance, based on the predictions made by the model.
+The final product of this project is a Google Sheets document that is linked to the deployed machine learning model. This document provides a list of customers who are likely to purchase car insurance, based on the predictions made by the model.
+
+
 <img src="img/design_production.png" width="900">
 
+--- 
+
 ### Google Sheets
+
+To obtain the predictions, the seller only needs to input the customer data, click on "Health Insurance Prediction", and then on "Get Prediction". Google Sheets will connect with the deployed model and retrieve the score. Following this, the customers who should be offered the insurance are highlighted in blue.
 
 <img src="img/deploy.gif" width="900">
 
  The code used to deploy the model can be seen in this [link](deploy).
 
+## **3 - Next Steps**
+1. Create new features by using benchmarking and mathematical operations.
+2. Test new subsets of features, as well as different combinations of features.
+3. Collect new data, to improve model performance
 
-## 3 - Technologies
+## **4 - Technologies**
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -215,7 +225,7 @@ The final product of this project is a Google Sheets document that is linked to 
 [![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)](https://scipy.org/)
 [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 
-## 4 - Author
+## **5 - Author**
 
 Lucas da Cunha
 
