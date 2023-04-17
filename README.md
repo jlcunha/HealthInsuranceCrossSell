@@ -46,7 +46,7 @@ For a more effective campaign, Ever-Guardian Company has decided to recommend ca
 
 ---
 
-
+&nbsp;
 
 ## **2 - Solution Strategy**
 
@@ -93,7 +93,9 @@ To help me formulate hypotheses, I created a mind map of potential hypotheses.
 
 <img src="img/mindmap.png" width="500">
 
-Top Insights:
+&nbsp;
+
+**Top Insights:**
 
 1. Almost all customers who already have vehicle insurance are **not interested in purchasing our vehicle insurance**. One probable cause could be that some customers have already contracted insurance for a year, and as they are already paying for their competitor's insurance, they may not be interested in having a second insurance at the moment.
 
@@ -162,6 +164,8 @@ To evaluate the final model, two methods are used:
     
     For example, in the final model, the cumulative gains curve shows what percentage of the total customers would be reached by targeting the **top 20% of prospects (≈ 58%), top 40% (≈ 92%)**, and so on.
 
+&nbsp;
+
 2. **Lift Curve:** is a graphical representation that shows the effectiveness of a predictive model in comparison to a random guess. It is commonly used in marketing and customer relationship management to evaluate the performance of models designed to predict customer behavior.
 
     <img src="img/lift_curve.png" width="750">
@@ -190,9 +194,11 @@ In this example is recommended call to 45% of customers ordered by score model. 
  #### **By targeting only the customers most likely to purchase, the company can reduce the cost of unnecessary calls. The resulting cost savings make the operation 106.91% more profitable.**
 
 
----
+&nbsp;
 
  The code of the evaluation business performance can be seen in this [link](src/insurance_evaluation.py).
+ 
+ &nbsp;
 
 ### **2.12 - Design of Machine Learning Model Framework for Production Deployment**
 The final product of this project is a Google Sheets document that is linked to the deployed machine learning model. This document provides a list of customers who are likely to purchase car insurance, based on the predictions made by the model.
